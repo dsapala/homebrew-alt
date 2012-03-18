@@ -16,7 +16,7 @@ class Php <Formula
 
   depends_on 'libxml2'
   depends_on 'jpeg'
-  depends_on 'libpng'
+  #depends_on 'libpng'
   depends_on 'mcrypt'
   depends_on 'gettext'
   if ARGV.include? '--with-mysql'
