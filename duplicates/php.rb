@@ -92,7 +92,7 @@ class Php <Formula
       "--enable-gd-native-ttf",
       "--with-mcrypt=#{Formula.factory('mcrypt').prefix}",
       "--with-jpeg-dir=#{Formula.factory('jpeg').prefix}",
-      "--with-png-dir=#{Formula.factory('libpng').prefix}",
+      #"--with-png-dir=#{Formula.factory('libpng').prefix}",
       "--with-gettext=#{Formula.factory('gettext').prefix}",
       "--with-tidy",
       "--mandir=#{man}"
